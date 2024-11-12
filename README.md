@@ -14,16 +14,10 @@ Tic-tac-toe is a simple yet engaging two-player game played on a 3x3 grid. The o
 * Three marks in a horizontal line.
 * Three marks in a vertical line.
 * Three marks in a diagonal line.
-
-![Tic-tac-toe](/)
-
-X|O|X|
------
-O|X|O|
-------
-O|X|O|
-------
-O|X|O|
-
 >[!TIP]
-> This is a tip.
+> Always start by claiming the center square if possible.
+
+## Example
+Assume Player 1(X) chooses the middle square, and Player 2(O) chooses a corner. They continue placing marks, aiming for a line while also blocking the opponent's attempts.
+In the following example, player X has won by placing three Xs diagonally.
+![Tic-tac-toe](/Tic-tac-toe.png)
